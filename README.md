@@ -57,6 +57,9 @@ docker-compose up notebook
 
 Access the notebook at: ```http://127.0.0.1:8888/tree```
 
+snapshot of the jupyter hub running locally via docker compose:
+![Captura de tela de 2024-04-29 21-48-48](https://github.com/ro-anderson/data-engineer-case/assets/41929105/2c1ea3cf-09a7-4d0d-8e2d-3683e5ffffc6)
+
 #### Via Poetry (without Docker)
 Ensure Poetry is installed and them:
 
