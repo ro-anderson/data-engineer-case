@@ -75,6 +75,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 python pipeline.py
 ```
+snapshoot of running via python virtualenv:
+![Captura de tela de 2024-04-29 21-45-14](https://github.com/ro-anderson/data-engineer-case/assets/41929105/aec104a8-d7d1-45f9-947b-e9c29fa6eae2)
+
 
 ## Expected Results
 The data pipeline is structured to provide detailed insights into user interactions with value propositions over specific time frames, particularly focusing on the activities leading up to the most recent prints. The expected outcomes are structured as follows:
