@@ -1,5 +1,8 @@
 # Data Engineering Pipeline Project
 
+Author name: Rodrigo Anderson
+[Linkedin](https://www.linkedin.com/in/ro-anderson/) | [github](https://github.com/ro-anderson)
+
 ## Introduction
 This project implements a comprehensive data pipeline to process and analyze user interaction data, specifically focusing on user clicks and payments related to various value propositions within an application.
 
