@@ -6,7 +6,7 @@ Author name: Rodrigo Anderson
 ## Introduction
 This project implements a comprehensive data pipeline to process and analyze user interaction data, specifically focusing on user clicks and payments related to various value propositions within an application.
 
-Also, there is a [brief explanation of the decisions made notebook](./notebooks/etl.ipynb) for more details.
+Also, there is a [brief explanation of the decisions made notebook](./notebooks/project_decisions_explanations.ipynb) for more details.
 
 ## Project Structure
 
