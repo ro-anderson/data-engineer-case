@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "5001:5001"
+    command: ["poetry", "run", "streamlit", "run", "app.py"]
+
+  notebook:
+    build:
+      context: .
+    ports:
+      - "8888:8888"
+    command: ["poetry", "run", "jupyter", "notebook", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''"]
+    volumes:
+      - .:/app
