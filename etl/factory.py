@@ -1,20 +1,16 @@
 import os
 from abc import ABC, abstractmethod
 import pandas as pd
+import numpy as np
 from tqdm import tqdm
 from loguru import logger
 from collections import Counter
+from datetime import datetime
 
 class DataProcessor(ABC):
     @abstractmethod
     def process_data(self):
         pass
-
-import pandas as pd
-import numpy as np
-import os
-from datetime import datetime
-
 
 class BronzeDataProcessor(DataProcessor):
     def __init__(self, landing_dir, bronze_dir):
